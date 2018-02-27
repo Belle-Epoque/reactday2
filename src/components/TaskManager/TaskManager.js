@@ -40,11 +40,28 @@ class TaskManager extends Component {
   }
 
   onChangeTodoStatus(taskId) {
-    console.log("DEBUG onChangeTodoStatus", taskId);
+    const { tasks } = this.state;
+    this.setState({
+      tasks: tasks.map((item, index) => {
+        if (item.id !== taskId) {
+          // This isn't the item we care about - keep it as-is
+          return item;
+        }
+
+        // isTodoStatus switcher (true/false).
+        return {
+          ...item,
+          isTodoStatus: !item.isTodoStatus
+        };
+      })
+    });
   }
 
   removeTask(taskId) {
-    console.log("DEBUG removeTask", taskId);
+    const { tasks } = this.state;
+    this.setState({
+      tasks: tasks.filter((item, index) => item.id !== taskId)
+    });
   }
 
   render() {
