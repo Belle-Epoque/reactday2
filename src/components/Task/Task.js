@@ -30,8 +30,8 @@ Task.propTypes = {
   id: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   isTodoStatus: PropTypes.bool.isRequired,
-  onChangeClick: PropTypes.func.isRequired,
-  onRemoveClick: PropTypes.func.isRequired
+  onChangeClickTask: PropTypes.func.isRequired,
+  onRemoveClickTask: PropTypes.func.isRequired
 };
 
 export default Task;
