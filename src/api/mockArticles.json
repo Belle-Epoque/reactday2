@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Mon premier article",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula, odio et vulputate tempor, justo massa dignissim eros, sagittis tincidunt dolor enim eget diam. Nam neque erat, efficitur in est ac, suscipit luctus nisi. Vestibulum at ligula mauris. Cras tincidunt mauris velit, in fermentum sem congue at. Phasellus id maximus eros. Vivamus id nulla dui. Maecenas id commodo arcu. Maecenas ullamcorper, dui vel egestas tempus, mauris nisi consequat nisi, eu sollicitudin felis lectus eget metus. Vestibulum placerat erat non tellus semper, vel viverra tellus commodo.",
+    "img": "https://fakeimg.pl/350x200/?text=React&font=lobster"
+  },
+  {
+    "id": "2",
+    "title": "Mon deuxième article",
+    "body": "Maecenas vehicula, odio et vulputate tempor, justo massa dignissim eros, sagittis tincidunt dolor enim eget diam. Nam neque erat, efficitur in est ac, suscipit luctus nisi. Vestibulum at ligula mauris. Cras tincidunt mauris velit, in fermentum sem congue at. Phasellus id maximus eros. Vivamus id nulla dui. Maecenas id commodo arcu. Maecenas ullamcorper, dui vel egestas tempus, mauris nisi consequat nisi, eu sollicitudin felis lectus eget metus. Vestibulum placerat erat non tellus semper, vel viverra tellus commodo.",
+    "img": "https://fakeimg.pl/350x200/?text=Is&font=lobster"
+  },
+  {
+    "id": "3",
+    "title": "Mon troisième article",
+    "body": "Nam auctor sit amet elit non scelerisque. Duis eu maximus ipsum. Cras elit ex, maximus vel tellus in, tincidunt sollicitudin libero. Fusce fringilla finibus lobortis. Quisque scelerisque rhoncus diam eget finibus. Nulla est turpis, egestas id mauris nec, ornare laoreet nisi. Nulla facilisis sagittis ex, vel ultricies libero mollis a. Fusce leo orci, sodales non sagittis ac, dictum id risus. Aenean vitae lectus nunc. Aliquam porttitor quam sed urna blandit, at dictum est varius. Ut eros enim, auctor et dolor eget, sodales rhoncus velit. Aliquam a vulputate lorem. Suspendisse pharetra luctus dignissim.",
+    "img": "https://fakeimg.pl/350x200/?text=Powerfull&font=lobster"
+  }
+]

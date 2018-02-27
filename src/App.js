@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import TaskManager from "./components/TaskManager/TaskManager";
+import Blog from "./components/Blog/Blog";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -39,6 +40,7 @@ class App extends Component {
           Reset task manager
         </button>
         <TaskManager taskAction={taskAction} />
+        <Blog />
       </div>
     );
   }
