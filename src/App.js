@@ -4,7 +4,28 @@ import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
+  /**
+   * constructor().
+   */
+  constructor() {
+    super();
+
+    this.state = {
+      taskAction: "taskActionFromHome"
+    };
+  }
+
+  /**
+   * Reset task manager.
+   */
+  resetTaskManager() {
+    this.setState({
+      taskAction: "resetTaskManager"
+    });
+  }
+
   render() {
+    const { taskAction } = this.state;
     return (
       <div className="App">
         <header className="App-header">
@@ -14,7 +35,10 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <TaskManager />
+        <button onClick={() => this.resetTaskManager()}>
+          Reset task manager
+        </button>
+        <TaskManager taskAction={taskAction} />
       </div>
     );
   }
