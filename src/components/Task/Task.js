@@ -3,6 +3,7 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 import "./Task.css";
 
+// props in params (id, text, etc.).
 const Task = ({
   id,
   text,
@@ -10,6 +11,7 @@ const Task = ({
   onChangeClickTask,
   onRemoveClickTask
 }) => {
+  // Display class (todo or done) if condition is true.
   const labelClass = classNames("card-text", {
     todo: isTodoStatus,
     done: !isTodoStatus
