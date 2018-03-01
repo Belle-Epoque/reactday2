@@ -5,6 +5,7 @@ class List extends Component {
   render() {
     const { tasks, onChangeClick, onRemoveClick } = this.props;
     console.log("DEBUG tasks", tasks);
+    // {...task} => On récupère les différentes propriétés de task en tant que props
     return (
       <div className="List">
         {tasks.map(task => (
